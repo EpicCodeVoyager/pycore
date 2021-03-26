@@ -102,6 +102,7 @@ def make_uppercase_by_index(sentence, index):
     replacement = char_to_be_replaced.upper()
     return sentence[:index] + replacement + sentence[index + 1:]
 
+
 upper_by_index = make_uppercase_by_index(sentence, 4)
 print("make_uppercase_by_index(sentence, 4) : {}".format(upper_by_index))
 
